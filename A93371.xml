@@ -1,0 +1,524 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A letter from Edinburgh, concerning the difference of the proceedings of the well-affected in Scotland from the proceedings of the Army in England.</title>
+            <author>J. S.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1648</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 28 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A93371</idno>
+            <idno type="STC">Wing S40A</idno>
+            <idno type="STC">Thomason E536_11</idno>
+            <idno type="STC">ESTC R203454</idno>
+            <idno type="EEBO-CITATION">99863406</idno>
+            <idno type="PROQUEST">99863406</idno>
+            <idno type="VID">115606</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A93371)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 115606)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 83:E536[11])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A letter from Edinburgh, concerning the difference of the proceedings of the well-affected in Scotland from the proceedings of the Army in England.</title>
+                  <author>J. S.</author>
+               </titleStmt>
+               <extent>[2], 13, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>Printed in the yeare 1648.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signed at end: J.S.</note>
+                  <note>Annotation on Thomason copy: "Decemb. 28".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>England and Wales. --  Army --  Early works to 1800.</term>
+               <term>England --  Foreign relations --  Scotland --  Early works to 1800.</term>
+               <term>Scotland --  Foreign relations --  England --  Early works to 1800.</term>
+               <term>Great Britain --  Politics and government --  1642-1649 --  Early works to 1800.</term>
+               <term>Great Britain --  History --  Civil War, 1642-1649 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-09</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2009-09</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:115606:1" rendition="simple:additions"/>
+            <p>A LETTER FROM EDINBURGH, <hi>Concerning</hi> The difference of the
+Proceedings of the Well-affected in SCOTLAND From the Proceedings of The
+<hi>ARMY</hi> in ENGLAND.</p>
+            <p>
+               <hi>LONDON,</hi> Printed in the Yeare 1648.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:115606:2" rendition="simple:additions"/>
+            <pb n="1" facs="tcp:115606:2" rendition="simple:additions"/>
+            <head>
+               <hi>A Letter from EDINBURGH,</hi> Concerning the difference of
+the Proceedings of the Well-affected in <hi>Scotland,</hi> from the
+Proceed<g ref="char:EOLhyphen"/>ings of the ARMY in <hi>England.</hi> Dated the <hi>19.</hi> of Decemb.
+<hi>1648.</hi>
+            </head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg> Am much troubled and amazed at that which you relate concerning
+the late proceedings of your <hi>England ARMY;</hi> but moſt of all at the
+pretences which are uſed to colour the ſame, which are, That they follow
+the example which hath been given them here in <hi>Scotland,</hi> and that they
+act the Reſolutions which our Marqueſſe of <hi>Arguile</hi> and your
+<hi>Lieutenant-Generall</hi> did conclude at their laſt meeting. Which are
+things ſo far diſſonant not only from truth, but from all likelyhood,
+that I dare confidently ſay, nothing could have been deviſed either more
+falfly, or with leſſe appearance. As for the Marqueſſe, I dare pawn all
+that I am worth in this world, that our Noble and faithful Marqueſſe who
+hath ſo freely and often hazarded himſelf and all that he hath for the true
+intereſt of <hi>Scotland,</hi> in maintaining the National Covenant, did
+never agree to any of thoſe undertakings (you mention your Army ſet upon)
+which are moſt directly oppoſite to all the purpoſes and intents of our
+Covenant. For in ſtead of the Reformation and ſettlement of Religion, it is
+evident that your men intend to ſettle nothing, but rather to unſettle all
+both in Church and State, by an univerſal Toleration of all Religi<g ref="char:EOLhyphen"/>ons: In
+ſtead of maintaining the Priviledges of Parliament, as <pb n="2" facs="tcp:115606:3"/>the
+ſupreme Judicature of your Kingdome, they break it in pee<g ref="char:EOLhyphen"/>ces, and ſetling
+themſelves as Judges over it, over the King and over the whole Kingdom, they
+effectively undertake to diſſolve it: Inſtead of defending the King and
+his Authority, in the pre<g ref="char:EOLhyphen"/>ſervation and defence of the true Religion and
+Liberties of the Kingdoms, they ſet themſelves to deſtroy him and his
+Race, and will have an elective King or none at all. Thus the three firſt
+Articles of the Covenant are utterly made void. In ſtead of bringing evil
+Inſtruments, that hinder the Reformation of Re<g ref="char:EOLhyphen"/>ligion, and divide between the
+King and his people, to condigne puniſhment; their whole way is to overturn
+that which is ſet<g ref="char:EOLhyphen"/>led in the Reformation of Religion, and to make a Faction
+di<g ref="char:EOLhyphen"/>viding the King from his people: which is againſt the 4. and 5. Articles.
+Nor can they, by the principles which they follow, be faithful to the 6.
+Article thereof, which is to defend and aſſiſt the Covenanters, but they
+rather will become the chief proſecutors of the ſame. Now I am ſure that
+neither my Lord of <hi>Argyle</hi> nor any of thoſe that manage the publique
+affairs here at this time, would ever give way to any deſigns from which
+ſuch breaches of Covenant might enſue: nay our zeal and ſincerity for the
+Cove<g ref="char:EOLhyphen"/>nant and for the ſettlement of all things according to it, will be found
+ſuch, That whatever the Kings conceſſions may be to you or us, upon the
+ratification of a Peace, nothing will be ſatisfactory except the whole matter
+of the Covenant be approved, and the taking thereof be confirmed and enjoyned
+by Law, not being left Arbitrary or to come in under an Act of Oblivion; and
+ex<g ref="char:EOLhyphen"/>cept alſo Epiſcopacie be utterly extirpated root and branch for ever,
+whereupon you ſeem not to ſtand much at this preſent. Theſe things are
+ſo unalterably determined in our Councels, and ſuch fundamental grounds
+amongſt us, that it is not poſſible that thoſe Advices by which your
+men are acted, can have had either their beginning, or ever will have their
+approbation from us, or from any that are faithfull to us, ſuch as we know
+the Marqueſſe of <hi>Argile</hi> to be.</p>
+            <p>As for the other pretence, That this undertaking of your Army is
+done by our example in theſe our laſt troubles: It is a moſt notorious
+falſhood, and a moſt injurious calumny againſt us. For which cauſe I
+think my ſelf bound to let you ſee the con<g ref="char:EOLhyphen"/>trary, <pb n="3" facs="tcp:115606:3"/>and how
+far our actions differ from that which is related of your Army.</p>
+            <p>Be pleaſed therefore to take notice, that in all our late
+pro<g ref="char:EOLhyphen"/>ceedings, the Party well-affected to the Covenant, who were diſaffected
+to the Engagement, never made any violent or tu<g ref="char:EOLhyphen"/>multuous oppoſition againſt
+the Councels of the Parliament; but whiles matters were in deliberation, the
+greateſt part of the people of this Kingdom petitioned only againſt the
+deſignes of the major part of Parliament, which did purſue an Engagement
+againſt <hi>England,</hi> contrary to the Covenant and Treaties: And when the
+thing was brought to a reſult, the well-affected Mem<g ref="char:EOLhyphen"/>bers of Parliament
+diſſented and proteſted (according to the practiſe of this Kingdom)
+againſt the engagement. Nor did the well-affected here make ever any
+oppoſition to the Parliament it ſelf (whoſe Authority is ſacred and
+ſupreme amongſt us) whiles they carried on maters which they had
+reſolved. Nor was there any oppoſition made to the councels of the
+Committee of Eſtates nor ever any wrong offered to them in their perſons;
+but all the oppoſition which was made, was afterward made againſt a few
+perſons of the Committee of Eſtates, whoſe illegal proceedings and actual
+oppreſſion being intolerable, they were reſiſted not only in a way
+juſtifiable by the neceſſity of natural defence, but even conformable to
+the Law of the Land.</p>
+            <p>Concerning the Perſons which the Parliament nominated to be a
+Committee of Eſtates, they were above an hundred; but when the Parliament was
+ended, Nine of thoſe alone were packt to make a <hi>Quorum,</hi> which could
+meet at all occaſions, and did over-rule the whole Kingdome moſt illegally
+and tyrannically.</p>
+            <p>Firſt their illegal proceedings were ſuch, That contrary to
+all Law they took upon them to impede the execution of Acts of Parliament; a
+power never given unto them, nor that could be committed unto any, (for how can
+it be ſuppoſed that ever any Parliament would, or lawfully could give to
+Deputies a power to alter or ſuſpend the Lawes of the Kingdome and
+ſtand<g ref="char:EOLhyphen"/>ing Acts of Parliament?) They cauſed divers Subjects to take the Oath
+<hi>ex Officio,</hi> A thing wholly contrary to the Laws of this Kingdome. They
+gave Order to denounce the Marqueſſe of <hi>Argile</hi> Rebel before any
+charge given in againſt him, and <pb n="4" facs="tcp:115606:4"/>other things of this
+nature were done by them to others whom they did proceſſe for Treaſon,
+upon a general accuſa<g ref="char:EOLhyphen"/>tion, without ſetting downe the particulars, and
+without pro<g ref="char:EOLhyphen"/>ducing any accuſers, which even the abetters of their owne
+Councellors were aſhamed of.</p>
+            <p>Secondly, Their actuall Oppreſſions were ſuch, that they
+cau<g ref="char:EOLhyphen"/>ſed Souldiers to quarter upon the well-affected, with ſo much cruelty,
+as that in the ſpace of fourteen dayes they exacted in ſome places to the
+value of ſeven years rent; by which meanes ſome families were diſſolved
+and ruined, yea they killed women that reſiſted their inſolent and unruly
+carriages, and offered vi<g ref="char:EOLhyphen"/>olence to Miniſters preaching in the Pulpit,
+interrupting Divine-Worſhip. All which was done without any hope of
+redreſſe, when petitioned againſt; yet this was indured with much
+pati<g ref="char:EOLhyphen"/>ence a long while, till all hope of redreſſe was loſt; and till that
+packt <hi>Quorum</hi> begun to raiſe new Forces, whereby to op<g ref="char:EOLhyphen"/>preſſe
+this kingdome, and reinforce their wicked engagement a-againſt
+<hi>England.</hi> For although they pretended in their Declara<g ref="char:EOLhyphen"/>tion to the
+Kingdome, that their going into <hi>England</hi> was in purſuance of the ends
+of the Covenant, to preſerve Religion and keep the Vnion between the
+Kingdomes, yet they gave then Commiſſions to ſuch as had been eminently
+active in the Re<g ref="char:EOLhyphen"/>bellion, under the conduct of the late Earle of
+<hi>Montroſe,</hi> which was not only contrary to expreſſe Acts of
+Parliament, but a de<g ref="char:EOLhyphen"/>ſigne utterly deſtructive to all the well-affected of
+this King<g ref="char:EOLhyphen"/>dome, by the arming of their deadly enemies againſt them; whereupon
+they were conſtrained to looke unto themſelves, and ſtand upon their
+lawfull defence.</p>
+            <p>Thus I have briefly opened, what the high tyranny, oppreſſion
+and uſurpation of power, was in a few men of this Kingdome, above and
+againſt all laws civill and na<g ref="char:EOLhyphen"/>turall which neceſſitated the honeſt
+Party to betake them<g ref="char:EOLhyphen"/>ſelves unto the juſt wayes of defence which the Laws
+of this Land allow, and the naturall rights of all men do provide for them in
+ſuch caſes, which how they made uſe of, and how the bleſſing of God
+hath been upon them in their legall Proceed<g ref="char:EOLhyphen"/>ings, I ſhall now adde, that as
+by what I have ſaid, you may ſee the diſterence of Authority and
+Governement, which is be<g ref="char:EOLhyphen"/>tween <pb n="5" facs="tcp:115606:4"/>your Parliament and our nine
+Committee-men. So by what I ſhall ſay, you may alſo ſee the way of
+acting, which our well-affected Party here did take, and how farre it dif<g ref="char:EOLhyphen"/>fers
+from the way wherein your Army hath ſet it ſelfe to walk.</p>
+            <p>To this effect you muſt know, that the ſtanding Lawes of this
+Kingdome lately confirmed, when the King was laſt with us in Parliament, have
+provided a remedy for publick grievances, when they are come to the extremity,
+and otherwiſe fail; which is this, <hi>that the Subjects of this Kingdome may
+meet together in ca<g ref="char:EOLhyphen"/>ſes of eminent danger, for the Preſervation of their
+Religion, Lawes and Liberties, and the Publique good of the Kirke and
+State.</hi> Theſe are the words of the Law. Therefore when matters were
+brought to this paſſe that I have told, when many of the Com<g ref="char:EOLhyphen"/>mittee of
+Eſtates were Priſoners in <hi>England,</hi> and ſome that were at home
+did abuſe their power, to the deſtruction of this Kingdome, and the
+diſturbance of the peace and union between the two Kingdomes: the queſtion
+was moved, whether or no the well-affected ought not to meet to provide for the
+ſafety of the Kingdome, of their Lawes and Liberties, ſeeing not only the
+Law did allow them ſo to doe in ſuch like caſes of danger, but beſides
+naturall right, the Nationall Covenant did bind them expreſſely to
+aſſiſt each other, in maintaining and promoting the ends of their
+Covenant againſt all lets and impe<g ref="char:EOLhyphen"/>diments whatſoever; the anſwer to this
+queſtion being clear and eaſie, and the practice of meeting in ſuch
+occaſions being ordi<g ref="char:EOLhyphen"/>nary in former times, beſides thoſe of the Nobility,
+who had pro<g ref="char:EOLhyphen"/>teſted in Parliament againſt the engagement; the
+Commiſſioners of divers Shires and Burrowes did meet alſo as formerly
+they had done in the like diſtreſſe in the yeare 1637 and 38 and 39.
+Theſe Noblemen and Commiſſioners being thus met, and ac<g ref="char:EOLhyphen"/>companied with a
+conſiderable number of the Gentry and Yeo<g ref="char:EOLhyphen"/>manry, went towards
+<hi>Edinburgh,</hi> the place unto which the Lord Chancellor and others of the
+Committee of Eſtates were ſum<g ref="char:EOLhyphen"/>moned to meet by a <hi>Quorum</hi> of the
+Committee that were for the engagement. Theſe Lords and Commiſſioners
+therefore went as by the Law they were allowed, and by their Shires and
+Burroughs they were directed for redreſſe of their Grievances. 
+<pb n="6" facs="tcp:115606:5"/>The Gentry and Yeomanry went as by their Covenant they were
+bound to protect and defend with all their might their Commiſ<g ref="char:EOLhyphen"/>ſioners in
+purſuance of the ends of the Covenant, in caſe they ſhould be
+aſſaulted or wronged by thoſe who were in armes a<g ref="char:EOLhyphen"/>gainſt them. And the
+Noblemen went in obedience to a Sum<g ref="char:EOLhyphen"/>mons from the Committee of Eſtates,
+whereof themſelves were the principall members; when theſe came to
+<hi>Edinburgh</hi> at the day appointed, the packt <hi>Quorum</hi> being
+conſcious of their owne guilt, durſt not ſtay for them, but ſpeedily
+removed themſelvs out of the way, keeping neither day nor place which
+themſelves had appointed; yet this was no prejudice to the Authority
+reſiding in the Committee of Eſtates appointed by Parliament, as if therby
+it were diſſolved, becauſe in this Realme the power of acting as a
+Committee doth not at any time de<g ref="char:EOLhyphen"/>pend upon the preciſe keeping of
+appointments, but onely upon the full number of the <hi>Quorum,</hi> nor at
+this time was there any wanting of the number to make a <hi>Quorum,</hi>
+although thoſe that had abuſed their power were retired. And becauſe the
+Lord Chancellor (who by vertue of his place may at any time call the Committee
+of Eſtates) did call a <hi>Quorum</hi> of the Committee, by which all the
+publique buſi<g ref="char:EOLhyphen"/>neſſes have been ſince managed, no Authority was
+diſſolved; In all this it is moſt evident, that the well-affected party
+in this Kingdome did nothing preſumptuouſly, but every thing regularly and
+juſtly; having for every ſtep of their proceed<g ref="char:EOLhyphen"/>ing, not onely the warrant
+of a Law, but the allowed pra<g ref="char:EOLhyphen"/>ctiſes of former times to lead them: Nor did
+they any Act of violence unto the Members of the Committee of Eſtates,
+although they had been violently aſſaulted and oppreſſed, they onely
+defended themſelves againſt thoſe that were in Armes againſt them; They
+came together to conſult and redreſſe matters out of courſe, that the
+Kingdome might bee pre<g ref="char:EOLhyphen"/>ſerved from ruine, and they made uſe of their power
+to none other end, but to purſue and maintaine their Cove<g ref="char:EOLhyphen"/>nant with
+<hi>England</hi> in avoiding a warre with it, by cauſing the forces raiſed
+againſt it, to be disbanded, and the Gari<g ref="char:EOLhyphen"/>ſons detained from it to be
+reſtored, and for the ſettlement of the Councel of State, without all
+appearance of uſurpation. <pb n="7" facs="tcp:115606:5"/>And leaſt thoſe who did
+retire from <hi>Edinburgh,</hi> (where now the Committee ſits,) ſhould
+thinke themſelves, or be lookt upon by others, as excluded and deprived by
+meer force from the right which the Parliament gave them to ſit in the
+Committee of Eſtates, therefore a friendly Treaty was entertained with them;
+at which up<g ref="char:EOLhyphen"/>on conſideration of preventing a warre with <hi>England,</hi>
+(which otherwiſe ſeemed unavoidable,) they were ratio<g ref="char:EOLhyphen"/>nally induced and
+conſiderately declared themſelves con<g ref="char:EOLhyphen"/>tent to forbeare the uſe of their
+right of comming to the Committed of Eſtates, and the exerciſe of all
+publick truſt and to leave the mannaging of the publick affairs to ſuch of
+the Committee, as had not been acceſſory to the Engage<g ref="char:EOLhyphen"/>ment: And to referre
+all differences to a Parliament, to be called betwixt that and the 10. of
+<hi>Ianuary,</hi> according to the power granted to the Committee of Eſtates
+by the Parliament, to call a Parliament when ever they ſhould thinke fit, by
+which tranſaction you ſee that the juſt Authority of Governement is not
+onely regularly but voluntarily, devolved upon thoſe that now mannage it, and
+Providence did ſo order it, that this tranſaction fell out neer about the
+time when the Commiſſioners of Par<g ref="char:EOLhyphen"/>liament, were to be choſen and changed
+of courſe, accord<g ref="char:EOLhyphen"/>ing to the Lawes and conſtant Practice of this Kingdome,
+which is every yeare at <hi>Michaelmas,</hi> whether there be a Parliament to
+ſit or not.</p>
+            <p>Here then you ſee what that proceeding is, upon which the
+pretence of an example to be taken from us is ground<g ref="char:EOLhyphen"/>ed, and what appearance
+there is <gap reason="illegible" resp="#OXF" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> any ſuch ground;
+here all the Practices of our well-affected Party are neceſſary and
+commendable in all circumſtances, and moſt warrantable by all the Laws of
+God and man in this land, as well Natural as Civill and Eccleſiaſticall,
+here all particular grievances are referred by all ſides to be determined by
+a free Parliament, here all the fundamentall Laws are entirely preſerved,
+here every thing hath been carried openly and profeſſedly from the
+beginning to the end above board, without any ſubtile <pb n="8" facs="tcp:115606:6"/>undermining practices, and here the leaſt offer is not made by any
+for the faults of ſome to change and alter the frame of Government in the
+whole.</p>
+            <p>By all which if you conſider matters ingenuouſly, I
+ſup<g ref="char:EOLhyphen"/>poſe you will ſay that nothing will be found in your caſe, parallel
+unto ours, almoſt in any circumſtance. For if mat<g ref="char:EOLhyphen"/>ters are carried
+amongſt you, as you intimate and others in<g ref="char:EOLhyphen"/>forme us, and as by ſome papers
+may be conjectured, they are or will be ſhortly; I dare ſadly
+prognoſticate your fate, that you will have the moſt diſorderly and
+confuſed State, that is this day in the world; your condition will be worſe
+then ours; for though we were ſadly oppreſſed and wick<g ref="char:EOLhyphen"/>edly involved into
+an unjuſt engagement againſt <hi>England</hi> to our owne confuſion, yet
+the authors of our ruine were thoſe that had ſome ſtamp of authority
+lawfully conferred upon them, and there were lawes knowne and wayes
+pra<g ref="char:EOLhyphen"/>cticeable, and Inſtruments in a readineſſe to redreſſe their
+ex<g ref="char:EOLhyphen"/>orbitances; but if you fall under the power of thoſe that are ſo farre
+from having right to authority that they can have no true ſtamp but that of
+ſervants, woe be unto you; the men that did diſorder us, were yet men of
+ſome ſence and reaſon, although they did drive their deſignes to the
+utmoſt furiouſly; but no furie is like that of a com<g ref="char:EOLhyphen"/>bined unreaſonable
+multitude, whoſe intereſt is to have no rule ſtanding; what your lawes
+are to finde a redreſſe, or what wayes you may have practiceable, and what
+In<g ref="char:EOLhyphen"/>ſtruments to follow them for your good, I am not capable to judge; but
+this I may gueſſe, that the Leaders of your Army and their Agitat<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rs that lie under deck, having gone ſo
+farre, will not ceaſe, and in all likelihood will re<g ref="char:EOLhyphen"/>ſolve to ſtick at
+nothing that may ſtand in their way of racing the preſent foundations that
+they may ſtand alone. The old <hi>Maxime</hi> of <hi>Caeſar</hi> is ſad
+one. <hi>Si violandum eſt jus, Regnandi cauſa violandum eſt, in caeteris
+Pietatem colito,</hi> When men have not the feare of God before their eyes it
+is naturall for them to deifie themſelves, and whatever they imagine then
+ſubordinate to that end which they have <pb n="9" facs="tcp:115606:6"/>ſet up to
+themſelves and for themſelves as beſt and ſu<g ref="char:EOLhyphen"/>preme, they thinke that
+only good and lawfull, and every thing elſe abominable; upon this ground they
+will eaſily diſpenſe with themſelves and their conſciences, to do
+evill that good may come of it. And becauſe the good which they ſeem to
+aime at, is a Libertine (not properly Govern<g ref="char:EOLhyphen"/>ment, but) correſpondencie and
+equality that they will ſacrifice, (if they be true to their Principles,) all
+matters of Rule and Order, both divine and humane, and all Obliga<g ref="char:EOLhyphen"/>tions and
+engagements, both naturall, morall and conſcio<g ref="char:EOLhyphen"/>nable unto this Idoll; And in
+ſo doing they will thinke themſelves not only juſtifyable but glorious;
+And becauſe the way of power is only left unto them, to compaſſe their
+glorious deſignes, they will think all lawfull, what can be done that way,
+and the more glory due to themſelves, the more they can cruſh others; but I
+pray God theſe Pre<g ref="char:EOLhyphen"/>dictions may never prove true in thoſe men, whom you
+know I have truly counted worthy of eſteem, and for whoſe miſcarriages I
+ſhould be much afflicted in many re<g ref="char:EOLhyphen"/>ſpects, partly for their great and many
+good parts, partly for their deſerts in a good cauſe, and the honour they
+have merited hitherto of all the well-affected thereunto, and par<g ref="char:EOLhyphen"/>ticularly of
+us here of late in <hi>Scotland,</hi> which I would not have them ſtain with
+any diſorderlineſſe; partly, and eſpe<g ref="char:EOLhyphen"/>cially, leſt their
+miſcariages in this kind give the greateſt wound unto Religion that can be
+given by any in this age. This would grieve me to the heart. And when I think
+on what I begin to ſee and hear from you and others, and re<g ref="char:EOLhyphen"/>member that they
+are but men as others, I tremble at the preſages of my grief.</p>
+            <p>But theſe ſad and paſſionate conſiderations do make this
+Letter too big, and have made me almoſt forget the Parallel which I was about
+to make, or rather to leave unto you to make, if any ſuch thing can be found
+between the late pro<g ref="char:EOLhyphen"/>ceedings of our Worthies here, and the preſent
+undertakings of your Army there.</p>
+            <pb n="10" facs="tcp:115606:7"/>
+            <p>For whether your conſider the perſons that are Actors in the
+buſineſſe on both ſides, here and there; or the Actions which they
+undertake; or the way and manner of their proceeding therein; or the things
+which they profeſſedly aim at; or the means which they uſe to bring the
+ſame to paſſe: I am ſure there will be nothing found in our men that
+hath any reſemblance to yours, and conſequently nothing that can give them
+an example for what they do, or any ground in compariſon with us to alter
+your State.</p>
+            <p>The perſons who acted with authority our affairs here on the one
+ſide, were a <hi>Quorum</hi> of nine Committee-men; and thoſe that have
+right to authority among you, are none but the Parliament: And what difference
+there is between that great body of Repreſentatives, and our Nine men, judge
+ye. On the other ſide, here the Actors were the Peeres and Noblemen of the
+Kingdome, joyned with the Commiſſi<g ref="char:EOLhyphen"/>oners of Shires and Burroughs, whom the
+Covenanters pro<g ref="char:EOLhyphen"/>tected from danger, as they were bound to do; And the Actors on
+the other ſide with you, are the Officers &amp; Soul<g ref="char:EOLhyphen"/>diers of your Army. Now
+what difference there is in the right of the one &amp; the other to act in
+caſes of publike grie<g ref="char:EOLhyphen"/>vance againſt thoſe that are in Authority, judge ye
+by what I have formerly laid concerning our Lawes, and by this, That no
+Souldiers or Army in the world can have any right or lawfull calling before God
+or the world, either to be to<g ref="char:EOLhyphen"/>gether, or to act in any thing otherwiſe then
+as they are the Servants of thoſe that have choſen them to be an Army,
+which is with you the Parliament. Our Noblemen, Com<g ref="char:EOLhyphen"/>miſſioners, and
+Covenanters acted defenſively according to Law, for the redreſſe of
+diſorders ruinous to the State: but your Army is in a way of acting
+offenſively without Law and againſt truſt, which is a ruinous diſorder
+to the State.</p>
+            <p>The undertaking of our Nine men, was the purſuit of an
+Engagement oppoſite to the Covenant and Treaties with <hi>England,</hi>
+oppreſſive to all the faithful in the Land, and de<g ref="char:EOLhyphen"/>ſtructive to the peace
+of the Kingdom and union betwixt the Kingdome: but the undertaking of your
+Parliament <pb n="11" facs="tcp:115606:7"/>was the purſuit of peace by a Perſonal Treaty
+with the King which by his condiſcenſions was in ſome things brought
+towards a hopeful iſſue.</p>
+            <p>What the difference is between theſe two, judge ye; and
+thereupon conſider what reſemblance there is between the oppoſition which
+our Nobles and Commiſſioners made unto the proceedings of our
+<hi>Quorum,</hi> and the reſiſtance which your Army doth make againſt the
+Votes of their Maſters the Houſes of Parliament, tending to the
+ſettlement of Peace in the Kingdome. As for the manner of our mens
+proceedings, I have ſhewed you how patiently they endured oppreſſion, how
+they never diſturbed the Parliaments coun<g ref="char:EOLhyphen"/>ſels, nor of the Committee of
+Eſtates, nor offered violence to their perſons, but by regular
+addreſſes ſought the re<g ref="char:EOLhyphen"/>dreſſes of grievances, and by a Treaty did
+obtain the ſame. Whether your Army hath ſuffered any oppreſſion from
+the Parliament, or have had any ill uſage from them, your know better then I
+that am a ſtranger; but I never heard of any: And what the way of their
+addreſſes are, I need not to ex<g ref="char:EOLhyphen"/>preſſe; you can judge; and I will not
+conjecture what here<g ref="char:EOLhyphen"/>after they may be.</p>
+            <p>The profeſſed aim of the well-affected party here, is the
+ſame which it was formerly, To ſettle the Kingdome in the obſervance of
+the Covenant, of the Treaties with <hi>England,</hi> and of the known Lawes and
+conſtitutions of Government. What the aime of your Army is, and how
+conſtant they are to the Propoſals which formerly they made, and where they
+will reſt, I ſhall leave it to you to judge, and to the event to
+ſhew.</p>
+            <p>The meanes which our men uſed to proſecute their aime, were a
+friendly Treaty to lay down Arms on all ſides, To ſettle and maintain the
+juſt Authority of Government, To right the wrong done to <hi>England,</hi>
+and to call a free Parliament. Now, what reſemblance the wayes of your men
+have with theſe, judge ye; And then tell me where the pretended example is,
+and wherein the compariſon can be made between that which we 
+<pb n="12" facs="tcp:115606:8"/>have done, and that which your men are doing: If it can be
+ſhewed in any circumſtance, or made imaginable to any rationall man, I
+ſhall acknowledge my igno<g ref="char:EOLhyphen"/>rance.</p>
+            <p>My admiration at a pretence ſo far out of purpoſe, and ſo
+injuriouſly reproachfull to our Cauſe, together with my zeale to vindicate
+the reputation of our ſmeerity by the Righteouſneſſe of our
+proceedings, hath moved me to the thus large.</p>
+            <p>All the ground upon which we can challenge a right to be truſted
+and believed in that which we do or ſay, that our meaning is upright and
+without deceit, can be no other but the juſtifiableneſſe of our carriage
+in our conſtant way, that it is orderly in our Calling, and an<g ref="char:EOLhyphen"/>ſwerable to
+a known Rule. But if we keep no Rule, or caſt off all reſpect unto that
+Rule which we are bound to acknowledge, and which we have obliged our ſelves
+to walk by; and if our enterprizes are diſproportionate to our Calling, and
+to the principles of our profeſſion in Chriſtianity; then we may juſtly
+be ſuſpected to be de<g ref="char:EOLhyphen"/>ceivers, and not mean truly whatever we pretend.</p>
+            <p>Therefore he that is nowhere to be found conſtant in his
+pretences, nor in his Rules known, can deſerve no truſt, nor can he be
+rationally judged to be ſincere; becauſe he will naturally ſhape his Rule
+according to his Pretences, and not his Pretences according to that which is a
+true Rule. He that walks by a Rule, denies himſelf, and comes to the light
+thereof, that he may be judged: But he that hath no Rule, but pretends only now
+this, and then that, doth ſeek himſelf and is a de<g ref="char:EOLhyphen"/>ceiver, who ſhunneth
+the light, although he may pre<g ref="char:EOLhyphen"/>tend never ſo much New-light. It is a ſad
+thing to ſee men whom in charity we could not but judge conſcio<g ref="char:EOLhyphen"/>nable,
+after great profeſſions and pretenſions to the Spi<g ref="char:EOLhyphen"/>rit in the beginning,
+to fall flat and end wholly in the fleſh. The Lord keep us from this
+temptation, and let him that ſtands take heed leſt he fall.</p>
+            <pb n="13" facs="tcp:115606:8"/>
+            <p>I can ſcarce break off from theſe troubleſome thoughts, but
+they are not ſo pleaſing to me that I ſhould delight to lengthen them:
+Therefore I ſhall now reſt and bid you Farewell, who am—</p>
+            <closer>
+               <dateline>
+                  <hi>Edinb.</hi> 
+                  <date>19 <hi>Decem.</hi> 1648.</date>
+               </dateline> 
+               <signed>
+                  <hi>Your Friend to ſerve you,</hi> J.
+S.</signed>
+            </closer>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
